@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://im.ge/i/QUANTEX-MD.v6WpJ0",
+                url: "https://raw.githubusercontent.com/Hashan000-1/IMAGE-TO-URL/refs/heads/main/QUANTEX%20MD.jpg",
               },
               caption: sid,
             });
